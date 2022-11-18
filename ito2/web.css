@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "Inter";
+    src: url('Inter/static/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Inter-medium";
+    src: url("Inter/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("Poppins/Poppins-Medium.ttf");
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    font-family: "Inter";
+}
+
+.logo {
+    float: left;
+    margin-left: 55px;
+    padding: 26px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Poppins";
+}
+
+.logo a {
+    text-decoration: none;
+    color: #075445;
+    font-size: 18px;
+    font-weight: medium;
+    padding-left: 8px;
+}
+
+.fa-basket-shopping {
+    font-weight: lighter;
+    color: #075445;
+    font-family: "Inter-medium";
+    font-size: 20px;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    float: right;
+    margin-right: 170px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #075445;
+    font-weight: 500;
+}
+
+.nav ul li:hover {
+    border-bottom: 3px solid #075445;
+    transition: all 0.3s ease;
+}
+
+.header {
+    text-align: justify;
+    position: absolute;
+    top: 53%;
+    transform: translate(25%, -50%);
+}
+
+.header h1 {
+    color: #075445;
+    font-size: 40px;
+}
+
+.parap p {
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+    font-family: "Inter-medium";
+}
+
+.button button {
+    width: 34%;
+    padding: 17px 0px;
+    font-family: "Inter";
+    color: #fff;
+    background-color: #075445;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 25px;
+    border: 2px solid #075445;
+}
+
+.button button:hover {
+    background-color: #fff;
+    color: #075445;
+    border: 2px solid #075445;
+    transition: all 0.3s ease;
+}
+
+.img {
+    position: absolute;
+    top: 53%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    width: 57%;
+    text-align: -webkit-right;
+    z-index: -99;
+}
+
+.img img {
+    width: 73%;
+}
+
+.about {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-5%, 60%);
+}
+
+.about img {
+    width: 45%;
+}
+
+.about-text {
+    position: absolute;
+    top: 35%;
+    left: 26.5%;
+    transform: translate(60%, -45%);
+}
+
+.about-text h1 {
+    font-size: 40px;
+}
+
+.about-text .color {
+    color: #026f59;
+}
+
+.parap2 {
+    position: absolute;
+    left: 50.8%;
+    top: 50%;
+}
+
+.parap2 p {
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+    font-family: "Inter-medium";
+    text-align: justify;
+}
+
+.sub-btn {
+    padding: 13px 0px;
+}
+
+.sub-btn button {
+    width: 30%;
+    padding: 12px 0px;
+    border: 1px solid #026f59;
+    background-color: #026f59;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: "Inter";
+}
+
+.sub-btn button:hover {
+    background-color: #fff;
+    color: #026f59;
+    transition: all 0.3s ease;
+}
+
+.desc {
+    position: absolute;
+    top: 175%;
+    left: 5%;
+}
+
+.desc .color {
+    color: #026f59;
+}
+
+.desc p {
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+    font-family: "Inter-medium";
+    text-align: justify;
+}
+
+.container {
+    position: absolute;
+    top: 200%;
+    left: 8%;
+}
+
+.container img {
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.flex-product {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.review {
+    color: goldenrod;
+    margin-right: 3px;
+}
+
+.price-shop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-shop a {
+    text-decoration: none;
+}
+
+.price-shop a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.pro-desc {
+    margin: 10px 0px !important;
+}
